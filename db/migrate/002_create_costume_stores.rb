@@ -1,4 +1,4 @@
-class Create_Costume_Stores
+class Create_Costume_Stores < ActiveRecord::Migration[5.1]
   
   def change 
     create_table :costume_stores do |t|
