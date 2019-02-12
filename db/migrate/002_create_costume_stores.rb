@@ -7,7 +7,7 @@ class Create_Costume_Stores
       t.integer :costume_inventory
       t.integer :num_of_employees
       t.boolean :still_in_buisness
-      t. :opening_time
+      t.string :opening_time
       t. :closing_time
     end
   end
